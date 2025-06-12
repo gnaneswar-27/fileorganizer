@@ -2,10 +2,9 @@ import os
 import shutil
 from pathlib import Path
 
-# Update this to your actual downloads path
 DOWNLOADS_DIR = Path.home() / "Downloads"
 
-# Define file type categories
+
 EXTENSION_MAP = {
     "Documents": [".pdf", ".docx", ".txt", ".pptx", ".xlsx", ".csv"],
     "Images": [".jpg", ".jpeg", ".png", ".gif", ".svg"],
