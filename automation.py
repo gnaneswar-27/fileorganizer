@@ -14,6 +14,7 @@ EXTENSION_MAP = {
     "Installers": [".exe", ".msi", ".dmg"],
     "Code": [".py", ".js", ".html", ".css", ".cpp", ".java"],
     "Torrent files": [".torrent"],
+    "Subtitles": [".srt"],
 }
 
 def get_category(extension):
